@@ -7,8 +7,10 @@ services:
       - "127.0.0.1:3456:3456"
     volumes:
       - ./data:/app/data
+      - ./config:/app/config
       - ./uploads:/app/uploads
       - ./output:/app/output
+      - ./logs:/app/logs
     init: true
     security_opt:
       - no-new-privileges:true
