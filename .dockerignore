@@ -1,0 +1,14 @@
+.git
+.env
+node_modules
+*.db
+*.sqlite
+*.sqlite3
+data
+uploads
+output
+backups
+*.mp4
+*.mov
+*.wav
+*.mp3
